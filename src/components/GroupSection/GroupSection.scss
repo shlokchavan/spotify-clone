@@ -1,0 +1,24 @@
+.groupSection {
+//   margin-bottom: 20px;
+
+  .groupSection__header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+    a {
+      font-size: 12px;
+      font-weight: 600;
+      background: transparent;
+      color: #b3b3b3;
+      line-height: 1.6em;
+      white-space: nowrap;
+      text-transform: uppercase;
+      padding-right: 20px;
+    }
+  }
+  .section__List {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
